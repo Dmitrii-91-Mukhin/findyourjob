@@ -95,3 +95,30 @@ body{
   border-radius: 5px;
   
 }
+/* катигории */
+.section{
+  padding: 70px 0 80px 0;
+}
+.section-title{
+  margin: 0 0 40px 0;
+}
+.card{
+  text-decoration: none;
+  color: #111238;
+  background-color: #f2f3f6;
+  border-radius: 10px;
+  padding: 35px;
+  margin-bottom: 15px;
+  transition: background 0.2s color 0.2s;
+}
+.card:hover{
+  background-color: #1A75E8;
+  color: #fff;
+}
+.card:hover .card-icon{
+  fill: #fff;
+}
+.card-icon{
+  fill: #111238;
+  margin-bottom: 15px;
+}
