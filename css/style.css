@@ -287,5 +287,12 @@ body{
 }
 .block2 {
 }
-.block3 {
+.block3 a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 17px;
+  color: #111238;
+}
+.block3 a:hover{
+  text-decoration: underline;
 }
